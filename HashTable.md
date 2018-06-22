@@ -12,9 +12,16 @@ A: 1. HashTable使用数组实现(非PHP数组),key可以为非数字 , 2.存储
 
 ## 延伸
 ### 加密算法和摘要算法
-AES(加密算法)
 引用自 [PHP 加密最佳实践](https://laravel-china.org/articles/4499/talk-about-encryption-that-thing-php-encryption-best-practice)
 > 看到这里，有些同学可能会问，我常用的md5、hash算法(sha1、sha256、sha512、sha1024等）怎么没见你提及，其实准确的说，md5和hash算法不能算是加密算法，它们都属于信息摘要算法，可以为不同的信息生成独一无二的信息摘要，而它们都属于不可逆算法，即无法通过生成的摘要信息还原出原始信息。利用这种特性，实际应用中，经常会使用这些算法对用户输入的密码进行运算，并对运算结果进行比较来验证用户输入密码是否正确。还有一种应用场景是通信签名，用于验证通信过程中信息是否丢失或被篡改。
+
+AES(Advanced Encryption Standard)
+
+SHA(Secure Hash Algorithm)
+
+MD5(Message Digest Algorithm Version 5)
+
+RSA(Ron Rivest , Adi Shamir , Leonard Adleman 3个人姓氏开头...一个非对称加密算法)
 
 ### 对称和非对称加密
 参考图解HTTP 和 PHP加密最佳实践
