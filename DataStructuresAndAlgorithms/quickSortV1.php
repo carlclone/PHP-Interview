@@ -1,9 +1,10 @@
 <?php
 
 //使用了额外空间的版本
+//不足:边界条件的选择,做题的时候备好纸笔,画图(刘宇波老师课程,算法图解中的方式)
 function quickSort($arr)
 {
-    if (count($arr) < 2) {
+    if (count($arr) ==0) {
         return $arr;
     }
 

@@ -14,6 +14,8 @@ PHP 知识点，继续完善中。
 
 [选择排序](https://github.com/carlclone/PHP-Interview/blob/master/DataStructuresAndAlgorithms/selectionSort.php)
 
+[快速排序 实现一](https://github.com/carlclone/PHP-Interview/blob/master/DataStructuresAndAlgorithms/quickSortV1.php)
+
 
 
 
