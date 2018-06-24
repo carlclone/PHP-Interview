@@ -1,4 +1,5 @@
 # Hash Table
+散列表（Hash table，也叫哈希表），是根据关键码值(Key value)而直接进行访问的数据结构。也就是说，它通过把关键码值映射到表中一个位置来访问记录，以加快查找的速度。这个映射函数叫做散列函数，存放记录的数组叫做散列表。
 
 ## Hash相关题目
 1.Q:哈希是什么？hash冲突后，数据怎么存？
@@ -9,6 +10,23 @@ A:哈希也称散列 , 哈希函数像一个漏斗一样将一个集合的元素
 2.Q:数组和hash的区别是什么？ (数组和Hash Table的区别?)
 
 A: 1. HashTable使用数组实现(非PHP数组),key可以为非数字 , 2.存储同样大小的数据,HashTable所需数组要大于纯数组 
+
+## Hash冲突解决方案
+    开放寻址法
+    再散列法
+    链地址法（拉链法）
+    建立一个公共溢出区
+    
+
+## Hash应用
+用于查找:Hash索引[5]:MySQL中,当不需要排序或者查找一个元素的上下文环境时,可使用Hash索引
+
+表驱动法[4]:常用于优化if,else语句结构,方便修改,经典例子:[人寿保险利息](xx)
+
+用作缓存
+用于防止重复:对文件进行哈希(md5摘要也有同样作用)
+
+
 
 ## 延伸
 ### 加密算法和摘要算法[2]
@@ -29,9 +47,18 @@ RSA(Ron Rivest , Adi Shamir , Leonard Adleman 3个人姓氏开头...一个非对
 
 经常二者结合使用,如HTTPS中
 
+### PHP Hash Table的实现
+
+
 ## 参考
 [1]算法图解
 
 [2][PHP 加密最佳实践](https://laravel-china.org/articles/4499/talk-about-encryption-that-thing-php-encryption-best-practice)
 
 [3]图解HTTP
+
+[4]Code Complete
+
+[5]高性能MySQL
+
+[6][PHP Hash Table 的实现](https://www.cnblogs.com/leezhxing/p/4823631.html)
