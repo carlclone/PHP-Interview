@@ -8,7 +8,7 @@ PHP 知识点，继续完善中。
 [PHP的数组 - Hash Table](https://github.com/carlclone/PHP-Interview/blob/master/HashTable.md)
 
 ### 延伸
-
+[PHP垃圾回收机制](https://github.com/carlclone/PHP-Interview/blob/master/Working_Principles_of_PHP/PHPGC.md)
 
 ### 数据结构和算法
 
