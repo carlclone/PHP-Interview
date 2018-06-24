@@ -21,7 +21,7 @@ MD5(Message Digest Algorithm Version 5)
 
 RSA(Ron Rivest , Adi Shamir , Leonard Adleman 3个人姓氏开头...一个非对称加密算法)
 
-### 对称和非对称加密[2][3]
+### 对称和非对称加密[2,3]
 
 对称加密:双方使用相同的加解密方法(密钥)
 非对称加密:加密方法相同,只有拥有私钥的一方才能解密,缺点:慢
