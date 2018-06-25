@@ -21,7 +21,9 @@
 
 可靠性问题:丢包,重复包,包出错,包乱序
 
-
+### 三次握手
+保证两边都能正常开始发送和接收
+![image.png](https://upload-images.jianshu.io/upload_images/3830995-6767f7e31cee66b1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 滑动窗口
 
